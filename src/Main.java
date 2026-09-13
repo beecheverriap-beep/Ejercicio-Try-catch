@@ -17,7 +17,7 @@ public  class Main {
         if (edad >= 18){
             System.out.println("Acesso autorizado");
         } else {
-            System.out.println("Acesso negado");
+            System.out.println("Acesso restringido");
         }
 
         } catch (InputMismatchException e) {
